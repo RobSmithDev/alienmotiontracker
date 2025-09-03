@@ -1,0 +1,21 @@
+[Unit]
+Description=Run Streaming Tracker and LCD Script at Boot
+After=network.target sound.target
+Wants=sound.target
+
+[Service]
+Type=simple
+ExecStart=/home/rob/luma-env/startup.sh
+Group=audio
+WorkingDirectory=/home/rob/luma-env
+StandardOutput=inherit
+StandardError=inherit
+Restart=on-failure
+User=rob
+Environment=PYTHONUNBUFFERED=1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=PULSE_SERVER=unix:/run/user/1000/pulse/native
+
+[Install]
+WantedBy=multi-user.target
+
