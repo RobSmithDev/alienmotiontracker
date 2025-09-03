@@ -45,6 +45,7 @@ class AlienDisplay:
         
         #self.device = pygame(width=320, height=240, rotate=0, mode='RGB', scale=1, frame_rate=20)
         
+        self.logFile = None
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False)
         # Screen OFF to start with
@@ -112,8 +113,7 @@ class AlienDisplay:
         #self.replayFile = "datalog_20250827_203808_125.bin"
         
                 
-        # Logging, for replay
-        self.logFile = None
+        # Logging, for replay        
         self.logStart = time.time()
         self._laststrLog = ""
         self.currentLine = None

@@ -5,13 +5,13 @@ Wants=sound.target
 
 [Service]
 Type=simple
-ExecStart=/home/rob/luma-env/startup.sh
+ExecStart=/home/alien/alienmotiontracker/startup.sh
 Group=audio
-WorkingDirectory=/home/rob/luma-env
+WorkingDirectory=/home/alien/alienmotiontracker
 StandardOutput=inherit
 StandardError=inherit
 Restart=on-failure
-User=rob
+User=alien
 Environment=PYTHONUNBUFFERED=1
 Environment=XDG_RUNTIME_DIR=/run/user/1000
 Environment=PULSE_SERVER=unix:/run/user/1000/pulse/native
