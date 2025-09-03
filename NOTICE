@@ -1,0 +1,9 @@
+This project includes third-party software:
+
+- Infineon Technologies AG code (BSD 3-Clause)
+  Copyright (C) 2022 Infineon Technologies AG
+  License text: THIRD_PARTY_LICENSES/Infineon-BSD-3-Clause.txt
+  Source files: radar/internal/DBF.py (and any derivatives noted within)
+  Source files: radar/internal/doppler.py (and any derivatives noted within)
+  Source files: radar/internal/fft_spectrum.py (and any derivatives noted within)
+  
