@@ -29,23 +29,15 @@ or
 The full build guide is located at:
 [alien.robsmithdev.co.uk](https://alien.robsmithdev.co.uk)
 
-This project is licensed under the **Non-Commercial Copyleft with Attribution License (NCCL)**.  
+## License
+This project is licensed under the **Non-Commercial Copyleft with Attribution License Attribution (NCCL)**.  
 
 Certain third-party components are provided under their own licenses  
 (e.g., BSD 3-Clause by Infineon). See [`NOTICE`](./NOTICE) and  
 [`THIRD_PARTY_LICENSES`](./THIRD_PARTY_LICENSES/) for details.  
 
-- [📄 View License Summary](./licence_summary.md)  
-- [📘 View Full License](./licence.txt)  
-
-## License
-This project is licensed under the Non-Commercial Copyleft with Attribution License (NCCL).
-Certain third-party components are provided under their own licenses (e.g., BSD 3-Clause by Infineon)
-see [`NOTICE`](./NOTICE) and [`THIRD_PARTY_LICENSES`](./THIRD_PARTY_LICENSES/) for details.
  - [View License Summary](./licence_summary.md)
  - [View Full License](./licence.txt)
- 
- 
  
 
 
