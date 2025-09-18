@@ -6,6 +6,7 @@ Unlike other replicas, this one not only makes the sounds and has a display, but
 This project uses the DreamRF+Radar Hat for the Raspberry Pi, powered by the BGT60TR13C from Infineon.
 
 My hope is that the community effort will improve this project even further, and I'm excited to see where this goes.
+[Build Guide](https://alien.robsmithdev.co.uk)
 
 ## Video Journey
 The 3-part video series showing how this was designed can be found [on my YouTube Channel](https://www.youtube.com/playlist?list=PL18CvD80w43YAV8UG24NtwRc2Wy-i7yyd)
