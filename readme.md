@@ -14,7 +14,7 @@ The 3-part video series showing how this was designed can be found [on my YouTub
  - Raspberry Pi 4b
  - DreamRF+Hat
  - Python 3.1
- - Luma.Core [pull request 278](https://github.com/rm-hull/luma.core/pull/278) 
+ - Luma.Core 
  - Other Hardware from the Build Guide
  
 ## Running
