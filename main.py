@@ -245,6 +245,7 @@ class AlienDisplay:
         self.alienDrawingDraw.rectangle((0, 0, self.alienDrawing.width, self.alienDrawing.height), fill=(0,0,0,0))   
         alienList = self.aliens.get_positions()
         nearest = 20
+        defradius = 13
         
         # First draw the ones over a second old, fading out
         for alien in alienList:
@@ -254,13 +255,13 @@ class AlienDisplay:
                 # convert distance to match LCD scale
                 distance = 3 + (alien.distance / 15) * 200
                 pos = ( (math.cos(alien.angle + self.rotationAngle) * distance) + 160, (math.sin(alien.angle + self.rotationAngle) * distance) + 160 ) 
-                self.alienDrawingDraw.circle(pos,13,(round(self.AlienPlotColor[0]*brightness), round(self.AlienPlotColor[1]*brightness), round(self.AlienPlotColor[2]*brightness), round(255*brightness))) 
+                self.alienDrawingDraw.circle(pos,defradius,(round(self.AlienPlotColor[0]*brightness), round(self.AlienPlotColor[1]*brightness), round(self.AlienPlotColor[2]*brightness), round(255*brightness))) 
         
         # Next draw the "active" ones
         if timepos < -0.1:
-            radius = 13
+            radius = defradius
         else:
-            radius = 18 - round(math.sin((timepos/1.2) * math.pi) * 6)     
+            radius = (defradius+5) - round(math.sin((timepos/1.2) * math.pi) * 6)     
 
         for alien in alienList:
             brightness = nowTime - alien.timestamp
