@@ -1,0 +1,31 @@
+{
+    "sequence": [
+        {
+            "num_repetitions": 0,
+            "repetition_time_s": 0.20031429827213287,
+            "sequence": [
+                {
+                    "num_repetitions": 16,
+                    "repetition_time_s": 0.001999237574636936,
+                    "sequence": [
+                        {
+                            "end_frequency_Hz": 61250000000,
+                            "hp_cutoff_Hz": 20000,
+                            "if_gain_dB": 33,
+                            "lp_cutoff_Hz": 500000,
+                            "num_samples": 512,
+                            "rx_mask": 5,
+                            "sample_rate_Hz": 1000000,
+                            "start_frequency_Hz": 58175000000,
+                            "tx_mask": 1,
+                            "tx_power_level": 31,
+                            "type": "chirp"
+                        }
+                    ],
+                    "type": "loop"
+                }
+            ],
+            "type": "loop"
+        }
+    ]
+}
